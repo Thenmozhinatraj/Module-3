@@ -17,13 +17,21 @@ To write a Python program that matches a string containing an `'a'` followed by 
 5. If a match is found, print `"Found a match!"`.  
 6. If no match is found, print `"Not matched!"`.  
 7. Terminate the program.
-
 ---
 
 ### PROGRAM
 
-```
+```python
+import re
+str1 = input("Enter a string: ")
+pattern = r"[a]+b{2,3}"
+if re.match(pattern, str1):
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+![Screenshot 2025-05-01 125627](https://github.com/user-attachments/assets/a34f1447-83b4-4b48-803c-26e0abea74be)
 
 ### RESULT
+The program was executed successfully, and the output has been verified.
