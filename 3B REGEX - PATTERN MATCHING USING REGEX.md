@@ -23,15 +23,16 @@ To write a Python program that matches a string containing an `'a'` followed by 
 
 ```python
 import re
-str1 = input("Enter a string: ")
-pattern = r"[a]+b{2,3}"
-if re.match(pattern, str1):
+str=input()
+x=re.search("bb",str)
+if x:
     print("Found a match!")
 else:
     print("Not matched!")
 ```
 ### OUTPUT
-![Screenshot 2025-05-01 125627](https://github.com/user-attachments/assets/a34f1447-83b4-4b48-803c-26e0abea74be)
+![image](https://github.com/user-attachments/assets/f45f08c8-a92e-4c28-80bb-c921eaf5cbc9)
+
 
 ### RESULT
 The program was executed successfully, and the output has been verified.
