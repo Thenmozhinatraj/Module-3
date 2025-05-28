@@ -24,15 +24,17 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```python
-a = int(input("Enter an integer: "))
-l = []
-for i in range(1, a):
-    if i % 2 == 0:
-        l.append(i)
-print("The list of even numbers is:", l)
+def createlist(n):
+    l=[]
+    for i in range(2,n):
+        if i%2==0:
+            l.append(i)
+    print(l)
 ```
 
 ### OUTPUT
-![Screenshot 2025-05-01 125940](https://github.com/user-attachments/assets/f72f3dff-ad21-4c5c-a01d-a0964d636467)
+
+![image](https://github.com/user-attachments/assets/6be365a8-8bf8-4551-a681-a424544e83bc)
+
 ### RESULT
-Thus, the program was successfully executed and verified.
+Thus a Python function that accepts a number N and creates a list containing all even numbers up to N was executed and implemented successfully.
