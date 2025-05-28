@@ -23,17 +23,14 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```python
-def replace_word():
-    original_text = input("Enter the original text: ")
-    old_word = input("Enter the word to replace: ")
-    new_word = input("Enter the new word: ")
-
-    updated_text = original_text.replace(old_word, new_word)
-    print("Updated text:", updated_text)
-replace_word()
+def replacestr(s,d):
+    a=input()
+    f=s.replace(d,a)
+    print("The old string is {}\nthe new string is {}".format(s,f))
 ```
 ### OUTPUT
-![Screenshot 2025-05-01 120651](https://github.com/user-attachments/assets/b5b7f335-8d71-4bae-9c70-433f59ce6f71)
+![image](https://github.com/user-attachments/assets/ccc1b7a3-6ffd-49b8-b291-dafc71c2118d)
+
 
 ### RESULT
 The program was successfully executed and the output is verified.
